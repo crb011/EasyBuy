@@ -1,0 +1,29 @@
+--商品分类表
+create table EASYBUY_PRODUCT_CATEGORY
+(
+  EPC_ID        NUMBER(10) primary key not null,--商品分类ID
+  EPC_NAME      VARCHAR2(20) not null,--商品分类名称
+  EPC_PARENT_ID NUMBER(10) not null--商品分类父ID
+)
+select * from EASYBUY_PRODUCT_CATEGORY
+
+insert into EASYBUY_PRODUCT_CATEGORY (EPC_ID, EPC_NAME, EPC_PARENT_ID)
+values (628, '家用电器', 0)
+insert into EASYBUY_PRODUCT_CATEGORY (EPC_ID, EPC_NAME, EPC_PARENT_ID)
+values (629, '电视', 628)
+insert into EASYBUY_PRODUCT_CATEGORY (EPC_ID, EPC_NAME, EPC_PARENT_ID)
+values (630, '冰箱', 628)
+insert into EASYBUY_PRODUCT_CATEGORY (EPC_ID, EPC_NAME, EPC_PARENT_ID)
+values (542, '图书影像', 0)
+insert into EASYBUY_PRODUCT_CATEGORY (EPC_ID, EPC_NAME, EPC_PARENT_ID)
+values (546, '图书', 542)
+insert into EASYBUY_PRODUCT_CATEGORY (EPC_ID, EPC_NAME, EPC_PARENT_ID)
+values (547, '音乐', 542)
+insert into EASYBUY_PRODUCT_CATEGORY (EPC_ID, EPC_NAME, EPC_PARENT_ID)
+values (580, '百货', 0)
+insert into EASYBUY_PRODUCT_CATEGORY (EPC_ID, EPC_NAME, EPC_PARENT_ID)
+values (581, '生活用品', 580)
+insert into EASYBUY_PRODUCT_CATEGORY (EPC_ID, EPC_NAME, EPC_PARENT_ID)
+values (582, '厨房用品', 580)
+insert into EASYBUY_PRODUCT_CATEGORY (EPC_ID, EPC_NAME, EPC_PARENT_ID)
+values (583, '化妆品', 580)

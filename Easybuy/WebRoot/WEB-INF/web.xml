@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>userSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.userSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>userUpd</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.userUpd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>userQuaID</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.userQuaID</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>userAddSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.userAddSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>userDel</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.userDel</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>userAdd</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.userAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productClassSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productClassSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productClassDel</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productClassDel</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productClassAdd</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productClassAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productClassAddSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productClassAddSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productDel</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productDel</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productAdd</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productAddSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productAddSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>guestbookSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.guestbookSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>guestbookDel</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.guestbookDel</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>guestbookUpd</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.guestbookUpd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>guestbookQuaID</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.guestbookQuaID</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>guestbookQua</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.guestbookQua</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>newsSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.newsSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>newsAdd</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.newsAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>newsDel</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.newsDel</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>newsQuaID</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.newsQuaID</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>newsAddSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.newsAddSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>newsUpd</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.newsUpd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>orderSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.orderSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>orderDel</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.orderDel</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>orderQuaID</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.orderQuaID</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>orderUpd</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.orderUpd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>orderBySer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.orderBySer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productQuaID</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productQuaID</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productUpd</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productUpd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productClassQuaID</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productClassQuaID</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productClassUpd</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productClassUpd</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>userQuafy</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.userQuafy</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productQuafy</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.productQuafy</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>orderQuafy</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.orderQuafy</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>newsQuafy</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.newsQuafy</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>guestbookQuafy</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.guestbookQuafy</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loginSerDL</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.loginSerDL</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>veryCodeSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.veryCodeSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>registeSerZC</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.registeSerZC</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>indexSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.indexSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>newsviSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.newsviSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productliSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.productliSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productliQuafy</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.productliQuafy</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>productviSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.productviSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loginSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.loginSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>registerSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.registerSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>guestbokSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.guestbokSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>guestbokSerFy</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.guestbokSerFy</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>guestbokADD</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.guestbokADD</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>indexSerHT</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Backservlet.indexSerHT</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>shoppingSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.shoppingSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>shoppingreSer</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.shoppingreSer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>shoppingDel</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.shoppingDel</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>shoppingQua</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.shoppingQua</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Seeionzx</servlet-name>
+    <servlet-class>indi.crb.Easybuy.Frontservlet.Seeionzx</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>userSer</servlet-name>
+    <url-pattern>/userSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userUpd</servlet-name>
+    <url-pattern>/userUpd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userQuaID</servlet-name>
+    <url-pattern>/userQuaID</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userAddSer</servlet-name>
+    <url-pattern>/userAddSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userDel</servlet-name>
+    <url-pattern>/userDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userAdd</servlet-name>
+    <url-pattern>/userAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productClassSer</servlet-name>
+    <url-pattern>/productClassSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productClassDel</servlet-name>
+    <url-pattern>/productClassDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productClassAdd</servlet-name>
+    <url-pattern>/productClassAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productClassAddSer</servlet-name>
+    <url-pattern>/productClassAddSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productSer</servlet-name>
+    <url-pattern>/productSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productDel</servlet-name>
+    <url-pattern>/productDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productAdd</servlet-name>
+    <url-pattern>/productAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productAddSer</servlet-name>
+    <url-pattern>/productAddSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guestbookSer</servlet-name>
+    <url-pattern>/guestbookSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guestbookDel</servlet-name>
+    <url-pattern>/guestbookDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guestbookUpd</servlet-name>
+    <url-pattern>/guestbookUpd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guestbookQuaID</servlet-name>
+    <url-pattern>/guestbookQuaID</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guestbookQua</servlet-name>
+    <url-pattern>/guestbookQua</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newsSer</servlet-name>
+    <url-pattern>/newsSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newsAdd</servlet-name>
+    <url-pattern>/newsAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newsDel</servlet-name>
+    <url-pattern>/newsDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newsQuaID</servlet-name>
+    <url-pattern>/newsQuaID</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newsAddSer</servlet-name>
+    <url-pattern>/newsAddSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newsUpd</servlet-name>
+    <url-pattern>/newsUpd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderSer</servlet-name>
+    <url-pattern>/orderSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderDel</servlet-name>
+    <url-pattern>/orderDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderQuaID</servlet-name>
+    <url-pattern>/orderQuaID</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderUpd</servlet-name>
+    <url-pattern>/orderUpd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderBySer</servlet-name>
+    <url-pattern>/orderBySer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productQuaID</servlet-name>
+    <url-pattern>/productQuaID</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productUpd</servlet-name>
+    <url-pattern>/productUpd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productClassQuaID</servlet-name>
+    <url-pattern>/productClassQuaID</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productClassUpd</servlet-name>
+    <url-pattern>/productClassUpd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userQuafy</servlet-name>
+    <url-pattern>/userQuafy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productQuafy</servlet-name>
+    <url-pattern>/productQuafy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderQuafy</servlet-name>
+    <url-pattern>/orderQuafy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newsQuafy</servlet-name>
+    <url-pattern>/newsQuafy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guestbookQuafy</servlet-name>
+    <url-pattern>/guestbookQuafy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginSerDL</servlet-name>
+    <url-pattern>/loginSerDL</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>veryCodeSer</servlet-name>
+    <url-pattern>/veryCodeSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registeSerZC</servlet-name>
+    <url-pattern>/registeSerZC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>indexSer</servlet-name>
+    <url-pattern>/indexSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>newsviSer</servlet-name>
+    <url-pattern>/newsviSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productliSer</servlet-name>
+    <url-pattern>/productliSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productliQuafy</servlet-name>
+    <url-pattern>/productliQuafy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>productviSer</servlet-name>
+    <url-pattern>/productviSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginSer</servlet-name>
+    <url-pattern>/loginSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registerSer</servlet-name>
+    <url-pattern>/registerSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guestbokSer</servlet-name>
+    <url-pattern>/guestbokSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guestbokSerFy</servlet-name>
+    <url-pattern>/guestbokSerFy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>guestbokADD</servlet-name>
+    <url-pattern>/guestbokADD</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>indexSerHT</servlet-name>
+    <url-pattern>/indexSerHT</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shoppingSer</servlet-name>
+    <url-pattern>/shoppingSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shoppingreSer</servlet-name>
+    <url-pattern>/shoppingreSer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shoppingDel</servlet-name>
+    <url-pattern>/shoppingDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shoppingQua</servlet-name>
+    <url-pattern>/shoppingQua</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Seeionzx</servlet-name>
+    <url-pattern>/Seeionzx</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
